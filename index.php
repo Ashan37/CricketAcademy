@@ -11,7 +11,7 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <nav class="navbar navbar-expand-lg" style="background-color:rgb(22, 88, 135);">
+    <nav class="navbar navbar-expand-lg" style="background-color:#001F3F;">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,9 +29,9 @@
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
-                <div>
-                    <button>Sign in</button>
-                    <button>Sign up</button>
+                <div class="me-2">
+                    <button class="btn btn-light">Sign in</button>
+                    <button class="btn btn-light">Sign up</button>
                 </div>
             </div>
         </div>
