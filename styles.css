@@ -1,0 +1,27 @@
+
+
+/*----------------Footer-----------------*/
+.footer {
+    background-color: #001F3F;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .input-group {
+    max-width: 250px;
+}
+

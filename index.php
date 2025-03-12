@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=., initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
@@ -14,19 +15,19 @@
     <nav class="navbar navbar-expand-lg" style="background-color:#001F3F;">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon bg-light"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Hidden brand</a>
+                <a class="navbar-brand text-light" href="#">Cricket Academy</a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link text-light" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link text-light" href="#" >About Us</a>
                     </li>
                 </ul>
                 <div class="me-2">
@@ -36,6 +37,54 @@
             </div>
         </div>
     </nav>
+
+    <footer class="footer text-light py-4" style="background-color: #001F3F;">
+    <div class="container">
+        <div class="row">
+            <!-- Logo & Description -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3>Cricket Academy</h3>
+                <p>Join our cricket academy to train with the best and improve your game.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">Home</a></li>
+                    <li><a href="#" class="text-light">Contact</a></li>
+                    <li><a href="#" class="text-light">About Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Head Office Info -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <h5>Head Office</h5>
+                <p>221/3, Barmen Road, Colombo 10, Sri Lanka</p>
+                <p>Phone: 011-0897631</p>
+                <p>Email: cricketacademy@gmail.com</p>
+                <p>Open: 9 AM - 7 PM</p>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <h5>Newsletter</h5>
+                <p>Subscribe to our newsletter</p>
+                <form>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="text-center mt-3">
+            <p>&copy; <?php echo date("Y"); ?> Cricket Academy. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
 
 </body>
 
