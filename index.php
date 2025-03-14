@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a href="#"><img src="images/faviconcricket.png" alt="logo" height="48px" width="48px"></a>
                 <a class="navbar-brand text-light" href="#">Cricket Academy</a>
-                <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+                <ul class="navbar-nav me-auto mx-5 mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                     </li>
@@ -31,6 +31,9 @@
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#" >About Us</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#" >Services</a>
+                    </li>
                 </ul>
                 <div class="me-2">
                     <button class="btn btn-light">Sign in</button>
@@ -39,22 +42,16 @@
             </div>
         </div>
     </nav>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
+<!---------------Hero Section------------------->
+<section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 id="hero-text">Welcome to Our Website</h1>
+            <p>Your journey to greatness starts here.</p>
+            <a href="#about" class="btn">Get Started</a>
+        </div>
+    </section>
+<!---------------Footer Section------------------->
     <footer class="footer text-light py-4" style="background-color: #001F3F;">
     <div class="container">
         <div class="row">
