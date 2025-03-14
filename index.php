@@ -15,12 +15,13 @@
 
     <nav class="navbar navbar-expand-lg" style="background-color:#001F3F;">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon bg-light"></span>
+            <button class="navbar-toggler bg-primary border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a href="#"><img src="images/faviconcricket.png" alt="logo" height="48px" width="48px"></a>
                 <a class="navbar-brand text-light" href="#">Cricket Academy</a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-5 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                     </li>
