@@ -46,7 +46,7 @@
 <section class="hero">
         <div class="overlay"></div>
         <div class="hero-content">
-            <h1 id="hero-text">Welcome to Our Website</h1>
+            <h1 id="hero-text">Welcome to Our Cricket Academy</h1>
             <p>Your journey to greatness starts here.</p>
             <a href="#about" class="btn">Get Started</a>
         </div>
