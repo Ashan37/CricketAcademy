@@ -29,10 +29,10 @@
                         <a class="nav-link text-light" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#" >About Us</a>
+                        <a class="nav-link text-light" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#" >Services</a>
+                        <a class="nav-link text-light" href="#">Services</a>
                     </li>
                 </ul>
                 <div class="me-2">
@@ -42,62 +42,102 @@
             </div>
         </div>
     </nav>
-<!---------------Hero Section------------------->
-<section class="hero">
-        <div class="overlay"></div>
-        <div class="hero-content">
-            <h1 id="hero-text">Welcome to Our Cricket Academy</h1>
-            <p>Your journey to greatness starts here.</p>
-            <a href="#about" class="btn">Get Started</a>
-        </div>
-    </section>
-<!---------------Footer Section------------------->
-    <footer class="footer text-light py-4" style="background-color: #001F3F;">
-    <div class="container">
-        <div class="row">
-            <!-- Logo & Description -->
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3>Cricket Academy</h3>
-                <p>Join our cricket academy to train with the best and improve your game.</p>
-            </div>
+    <!---------------Hero Section------------------->
 
-            <!-- Quick Links -->
-            <div class="col-lg-2 col-md-4 col-sm-6">
-                <h5>Quick Links</h5>
-                <ul class="list-unstyled">
-                    <li><a href="#" class="text-light">Home</a></li>
-                    <li><a href="#" class="text-light">Contact</a></li>
-                    <li><a href="#" class="text-light">About Us</a></li>
-                </ul>
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="images/hero1.jpg">
+                <div class="content">
+                    <div class="name">Cricket Academy</div>
+                    <div class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id augue ut felis vestibulum feugiat eget lacinia dui. Vestibulum ante sem, vehicula vel pulvinar a, rhoncus vel lectus. In lectus mi, pellentesque sit amet risus sed, vestibulum volutpat lorem. Vivamus diam nulla, dapibus quis vestibulum pretium, lobortis non urna. Maecenas a malesuada risus. Nullam mollis lacus et dui aliquam posuere. Donec a fringilla metus. Aliquam ut venenatis metus. Praesent vel justo at orci hendrerit gravida. Nam nec odio urna. Vestibulum auctor quis mauris quis placerat</div>
+                </div>
+                <div class="button">
+                    <button>Sign In</button>
+                    <button>Sign Up</button>
+                </div>
             </div>
-
-            <!-- Head Office Info -->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h5>Head Office</h5>
-                <p>221/3, Barmen Road, Colombo 10, Sri Lanka</p>
-                <p>Phone: 011-0897631</p>
-                <p>Email: cricketacademy@gmail.com</p>
-                <p>Open: 9 AM - 7 PM</p>
-            </div>
-
-            <!-- Newsletter -->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h5>Newsletter</h5>
-                <p>Subscribe to our newsletter</p>
-                <form>
-                    <div class="input-group">
-                        <input type="email" class="form-control" placeholder="Email" required>
-                        <button class="btn btn-primary" type="submit">Subscribe</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-        <div class="text-center mt-3">
-            <p>&copy; <?php echo date("Y"); ?> Cricket Academy. All rights reserved.</p>
         </div>
     </div>
-</footer>
+
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="images/hero2.jpg">
+                <div class="content">
+                    <div class="name">Cricket Academy</div>
+                    <div class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id augue ut felis vestibulum feugiat eget lacinia dui. Vestibulum ante sem, vehicula vel pulvinar a, rhoncus vel lectus. In lectus mi, pellentesque sit amet risus sed, vestibulum volutpat lorem. Vivamus diam nulla, dapibus quis vestibulum pretium, lobortis non urna. Maecenas a malesuada risus. Nullam mollis lacus et dui aliquam posuere. Donec a fringilla metus. Aliquam ut venenatis metus. Praesent vel justo at orci hendrerit gravida. Nam nec odio urna. Vestibulum auctor quis mauris quis placerat</div>
+                </div>
+                <div class="button">
+                    <button>Sign In</button>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="images/hero3.jpg">
+                <div class="content">
+                    <div class="name">Cricket Academy</div>
+                    <div class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id augue ut felis vestibulum feugiat eget lacinia dui. Vestibulum ante sem, vehicula vel pulvinar a, rhoncus vel lectus. In lectus mi, pellentesque sit amet risus sed, vestibulum volutpat lorem. Vivamus diam nulla, dapibus quis vestibulum pretium, lobortis non urna. Maecenas a malesuada risus. Nullam mollis lacus et dui aliquam posuere. Donec a fringilla metus. Aliquam ut venenatis metus. Praesent vel justo at orci hendrerit gravida. Nam nec odio urna. Vestibulum auctor quis mauris quis placerat</div>
+                </div>
+                <div class="button">
+                    <button>Sign In</button>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Footer Section------------------->
+    <footer class="footer text-light py-4" style="background-color: #001F3F;">
+        <div class="container">
+            <div class="row">
+                <!-- Logo & Description -->
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3>Cricket Academy</h3>
+                    <p>Join our cricket academy to train with the best and improve your game.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Home</a></li>
+                        <li><a href="#" class="text-light">Contact</a></li>
+                        <li><a href="#" class="text-light">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Head Office Info -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <h5>Head Office</h5>
+                    <p>221/3, Barmen Road, Colombo 10, Sri Lanka</p>
+                    <p>Phone: 011-0897631</p>
+                    <p>Email: cricketacademy@gmail.com</p>
+                    <p>Open: 9 AM - 7 PM</p>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to our newsletter</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="text-center mt-3">
+                <p>&copy; <?php echo date("Y"); ?> Cricket Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
