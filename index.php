@@ -51,10 +51,10 @@
                 <div class="content">
                     <div class="name">Cricket Academy</div>
                     <div class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id augue ut felis vestibulum feugiat eget lacinia dui. Vestibulum ante sem, vehicula vel pulvinar a, rhoncus vel lectus. In lectus mi, pellentesque sit amet risus sed, vestibulum volutpat lorem. Vivamus diam nulla, dapibus quis vestibulum pretium, lobortis non urna. Maecenas a malesuada risus. Nullam mollis lacus et dui aliquam posuere. Donec a fringilla metus. Aliquam ut venenatis metus. Praesent vel justo at orci hendrerit gravida. Nam nec odio urna. Vestibulum auctor quis mauris quis placerat</div>
-                </div>
-                <div class="button">
-                    <button>Sign In</button>
-                    <button>Sign Up</button>
+                    <div class="buttons">
+                        <button>Sign In</button>
+                        <button>Sign Up</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,11 +67,12 @@
                 <div class="content">
                     <div class="name">Cricket Academy</div>
                     <div class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id augue ut felis vestibulum feugiat eget lacinia dui. Vestibulum ante sem, vehicula vel pulvinar a, rhoncus vel lectus. In lectus mi, pellentesque sit amet risus sed, vestibulum volutpat lorem. Vivamus diam nulla, dapibus quis vestibulum pretium, lobortis non urna. Maecenas a malesuada risus. Nullam mollis lacus et dui aliquam posuere. Donec a fringilla metus. Aliquam ut venenatis metus. Praesent vel justo at orci hendrerit gravida. Nam nec odio urna. Vestibulum auctor quis mauris quis placerat</div>
+                    <div class="buttons">
+                        <button>Sign In</button>
+                        <button>Sign Up</button>
+                    </div>
                 </div>
-                <div class="button">
-                    <button>Sign In</button>
-                    <button>Sign Up</button>
-                </div>
+
             </div>
         </div>
     </div>
@@ -83,10 +84,10 @@
                 <div class="content">
                     <div class="name">Cricket Academy</div>
                     <div class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id augue ut felis vestibulum feugiat eget lacinia dui. Vestibulum ante sem, vehicula vel pulvinar a, rhoncus vel lectus. In lectus mi, pellentesque sit amet risus sed, vestibulum volutpat lorem. Vivamus diam nulla, dapibus quis vestibulum pretium, lobortis non urna. Maecenas a malesuada risus. Nullam mollis lacus et dui aliquam posuere. Donec a fringilla metus. Aliquam ut venenatis metus. Praesent vel justo at orci hendrerit gravida. Nam nec odio urna. Vestibulum auctor quis mauris quis placerat</div>
-                </div>
-                <div class="button">
-                    <button>Sign In</button>
-                    <button>Sign Up</button>
+                    <div class="buttons">
+                        <button>Sign In</button>
+                        <button>Sign Up</button>
+                    </div>
                 </div>
             </div>
         </div>
