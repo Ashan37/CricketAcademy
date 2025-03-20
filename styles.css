@@ -12,59 +12,174 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.carousel{
+.carousel {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.carousel .list .item{
-   
+
+.carousel .list .item {
     position: absolute;
     inset: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
-.carousel .list .item img{
+
+.carousel .list .item.active {
+    opacity: 1;
+}
+
+.carousel .list .item img {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     object-fit: cover;
 }
-.carousel .list .item .content{
+
+.carousel .list .item .content {
     position: absolute;
-    top: 30%;
-    width: 1140px;
-    max-width: 80%;
-    margin-left: 40px;
-    
-    padding-right: 30%;
-    box-sizing:border-box;
-    color:#fff;
-    text-shadow:0 5px 10px #0004;
-}
-.carousel .list .item .content .name{
-    font-weight: bold;
-    letter-spacing: 10px;
-    font-size: 4em;
-}
-.carousel .list .item .content .des{
-    font-weight: bold;
-    font-size: 1em;
-    list-style: 1.3em;
-}
-.carousel .list .item .content .buttons{
-    display: grid;
-    grid-template-columns: repeat(2, 130px);
-    grid-template-rows: 40px;
-    gap:5px;
-    margin-top: 20px;
-  
-}
-.carousel .list .item .content button{
-    border: none;
-    background-color: #eee;
-    letter-spacing: 3px;
-    font-family: Poppins;
-    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
     border-radius: 10px;
+}
+
+.carousel .list .item .content .name {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.carousel .list .item .content .des {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.carousel .list .item .content .buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carousel .list .item .content button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: #001F3F;
+    transition: background 0.3s ease;
+}
+
+.carousel .list .item .content button:hover {
+    background-color: #ddd;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel {
+        height: 60vh;
+    }
+
+    .carousel .list .item img {
+        height: 60vh;
+    }
+
+    .carousel .list .item .content {
+        width: 85%;
+        padding: 15px;
+    }
+
+    .carousel .list .item .content .name {
+        font-size: 1.5rem;
+    }
+
+    .carousel .list .item .content .des {
+        font-size: 0.9rem;
+    }
+}
+
+/* Thumbnail Section */
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.thumbnail .item {
+    width: 100px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.thumbnail .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.thumbnail .item .content {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/* Arrows */
+.arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.arrows button {
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.arrows button:hover {
+    background: white;
+}
+
+@media (max-width: 768px) {
+    .arrows {
+        top: 55%;
+    }
+    .arrows button {
+        padding: 8px;
+        font-size: 1rem;
+    }
 }
 
 

@@ -58,9 +58,9 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="carousel">
+
+
         <div class="list">
             <div class="item">
                 <img src="images/hero2.jpg">
@@ -75,9 +75,9 @@
 
             </div>
         </div>
-    </div>
 
-    <div class="carousel">
+
+
         <div class="list">
             <div class="item">
                 <img src="images/hero3.jpg">
@@ -92,6 +92,54 @@
             </div>
         </div>
     </div>
+<!--------------------Thumbnail------------->
+<div class="thumbnail">
+    <div class="item">
+        <img src="images/hero1.jpg" alt="1">
+        <div class="content">
+            <div class="title">
+                Name Slider
+            </div>
+            <div class="des">
+                Description
+            </div>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="images/hero2.jpg" alt="1">
+        <div class="content">
+            <div class="title">
+                Name Slider
+            </div>
+            <div class="des">
+                Description
+            </div>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="images/hero3.jpg" alt="1">
+        <div class="content">
+            <div class="title">
+                Name Slider
+            </div>
+            <div class="des">
+                Description
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-------------------Arrows----------------->
+
+<div class="arrows">
+    <button id="prev"><</button>
+    <button id="next">></button>
+</div>
+
+
     <!---------------Footer Section------------------->
     <footer class="footer text-light py-4" style="background-color: #001F3F;">
         <div class="container">
